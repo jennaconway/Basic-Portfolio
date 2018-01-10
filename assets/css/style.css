@@ -1,0 +1,10 @@
+body { margin-top: 12pt;
+    margin-bottom: 12pt;
+
+}
+
+.background {
+    background-blend-mode: hue;
+    background-color: lightcoral
+
+}
