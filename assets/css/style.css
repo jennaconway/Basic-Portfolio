@@ -1,27 +1,58 @@
 body {
-    margin-top: 12pt;
-    margin-bottom: 12pt;
+    margin: 20px 20px 20px 20px;
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    background-color: lightsalmon;
+    background-color: lightgrey;
 }
 
-#heading1 {
+div {
+    border: solid teal;
+    margin: 0 auto;
+    
+}
+
+.heading {
     margin-top: 20px;
+    padding: 25px;
     color:white;
     background-color: teal;
     border-color: #cccccc;
   }
 
-#navmenu {
-    color: teal;
-    background-color: white;
-    border-bottom-color: grey;
+.contactme {
+    padding:20px;
+    border: teal;
+    border-width: 4px;
+    border-style: solid;
+    float: left;
 }
 
+#form {
+    padding: 5px;
+}
+
+#navmenu {
+    margin-right: -15px;
+    float: right;
+    color: teal;
+    background-color: white;
+    border: grey;
+    padding: 3px;
+
+}
+#navmenu li {
+    width: 10%;
+    margin-left: 50px;
+    float: left;
+    padding: 5px;
+
+} 
+
 #footer {
-    margin-top: 20%;
-    color: black;
+    text-align: center;
+    padding: 20px;
+    margin-top: 4%;
+    color: white;
     background-color: #666666;
 }
 
@@ -33,6 +64,9 @@ body {
 }
 
 #maincontent {
+    margin: 20px;
+    text-align: left;
+    padding: 20px;
     background-color: #ffffff;
     border-style: solid;
     border-color: #dddddd;
@@ -43,17 +77,35 @@ body {
 #Connection {
     background-color: #ffffff;
     border-style: solid;
-    border-color:#dddddd;
+    border-color:teal;
     border-width: 2px;
     width: 270px;
     float: right;
-
+    margin-top: -465px;
+    margin-right: 45px;
+    text-align: center;
+    padding: 10px;
+    
 }
 
+#portfolio { 
+    margin: 0 auto;
+    border: solid 2px teal;
+}
+
+#bodyportfolio {
+    float: left;
+    border-width: 10px;
+}
 h1 h2 h3 {
     font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h1 {
+    display: inline-block;
 }
 
 p {
     color: grey;
 }
+
